@@ -1,5 +1,6 @@
 version: '3.9'
 services:
+  # use docker-compose up -d to start the server and resetting palworld by default.env
   palworld-dedicated-server:
     #build: .
     container_name: palworld-dedicated-server
